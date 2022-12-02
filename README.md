@@ -1,5 +1,5 @@
 
-# Holocaust segmentation repository
+# Holocaust-Segmentation Repository
 
 Code for the paper "Topical Segmentation of Spoken Narratives: A Test Case on Holocaust Survivor Testimonies"
 https://arxiv.org/abs/2210.13783
