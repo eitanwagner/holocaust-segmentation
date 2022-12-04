@@ -8,6 +8,9 @@ https://arxiv.org/abs/2210.13783
 
 ## Install
 ```bash
+git clone https://github.com/eitanwagner/holocaust-segmentation.git
+cd holocaust-segmentation
+pip install -e requirements.txt
 
 ```
 
