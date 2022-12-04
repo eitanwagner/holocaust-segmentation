@@ -30,6 +30,7 @@ For the topic-based segmentor you must provide your own classifier and a list of
   
 For example, 
 ```bash
+python segmentation.py --data_path <data_path>raw_text.json --out_path <out_path>
 
 ```
 
@@ -42,9 +43,8 @@ You can run evaluation for a previously segmented document. For this you must pr
 
 For example, 
 ```bash
-
+python evaluation.py --data_path <data_path>doc_bin --gold_path <data_path>doc_bin-gold --class_encoder_path <encoder_path>label_encoder.pkl --classifier_path <classifier_path> --classifier_name distilroberta
 ```
-
 
 
 ---
